@@ -1,11 +1,11 @@
 import os
 
-TG_BOT_TOKEN = os.getenv("TG_BOT_TOKEN", "")
-APP_ID = int(os.getenv("APP_ID", "0"))
-API_HASH = os.getenv("API_HASH", "")
-OWNER_ID = int(os.getenv("OWNER_ID", "0"))
+TG_BOT_TOKEN = os.getenv("TG_BOT_TOKEN", "8352104584:AAGLADxKk1BMmnAwSpVdNrzPQpwJ-aUtSvs")
+APP_ID = int(os.getenv("APP_ID", "22128383"))
+API_HASH = os.getenv("API_HASH", "7992b5c5c9c6d34276c3dce9e46ba879")
+OWNER_ID = int(os.getenv("OWNER_ID", "5960133511"))
 
-DATABASE_URL = os.getenv("DATABASE_URL", "mongodb://localhost:27017")
+DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://sktech007:sktech007@cluster0.utm4vj5.mongodb.net/?appName=Cluster0")
 DATABASE_NAME = os.getenv("DATABASE_NAME", "SkAnime")
 
 VERIFY_MODE = os.getenv("VERIFY_MODE", "True").lower() in ("1","true","yes")
